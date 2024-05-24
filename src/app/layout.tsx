@@ -10,8 +10,8 @@ const ChauPhilomeneOne = Chau_Philomene_One({
 });
 
 export const metadata: Metadata = {
-  title: "Grindr Profile Generator",
-  description: "Grindr Profile Generator",
+  title: "Profile Generator",
+  description: "$GRINDR Profile Generator",
 };
 
 export default function RootLayout({
