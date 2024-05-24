@@ -77,7 +77,6 @@ export default function Home() {
       });
   };
 
-
   const handleShare = () => {
     const shareData = {
       title: 'Profile Generator', // Title of your website or app
@@ -191,7 +190,7 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="text-center text-3xl text-black border-l-2 border-white-500 pl-4">
-                    <span>{name || 'Name'}</span> <span>{age || ', Age'}</span>
+                    <span>{name || 'Name'}</span> <span>{age || ' Age'}</span>
                   </div>
                 </div>
 
