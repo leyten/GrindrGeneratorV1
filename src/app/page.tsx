@@ -95,7 +95,7 @@ export default function Home() {
   };
 
   const handleBuy = () => {
-    window.location.href = 'https://jup.ag/swap/SOL-9BKWEZqhvJh4Lh9pnnX6f1xL7SLr6diyTb77kadfbFdK';
+    window.open('https://jup.ag/swap/SOL-9BKWEZqhvJh4Lh9pnnX6f1xL7SLr6diyTb77kadfbFdK', '_blank');
   };
   
   return (
