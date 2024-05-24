@@ -68,7 +68,7 @@ export default function Home() {
     domtoimage.toPng(containerRef.current)
       .then((dataUrl: string) => {
         const link = document.createElement('a');
-        link.download = 'image.png';
+        link.download = 'GrindrProfile.png';
         link.href = dataUrl;
         link.click();
       })
