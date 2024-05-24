@@ -78,7 +78,7 @@ export default function Home() {
   };
 
   const handleShare = () => {
-    window.open('I%20just%20made%20my%20%24grindr%20profile%2C%20will%20you%20swipe%20right%20on%20me%3F%20%F0%9F%92%85%0A%0AGo%20make%20one%20yourself%3A%0Ahttps%3A%2F%2Fgenerator.grindronsol.com', '_blank');
+    window.open('https://twitter.com/intent/tweet?text=I%20just%20made%20my%20%24grindr%20profile%2C%20will%20you%20swipe%20right%20on%20me%3F%20%F0%9F%92%85%0A%0AGo%20make%20one%20yourself%3A%0Ahttps%3A%2F%2Fgenerator.grindronsol.com', '_blank');
   };
 
   const handleBuy = () => {
