@@ -275,7 +275,7 @@ export default function Home() {
             </div>
             {/* Grid 3  */}
             <div className="">
-              <div className="bg-primary px-4 py-6 rounded-lg xl:h-[500px]">
+              <div className="bg-primary px-4 py-6 rounded-lg xl:h-[515px]">
                 <div className="">
                   <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-1">
                     <div className="col-span-6">
