@@ -9,6 +9,8 @@ import { FaLocationArrow } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaDollarSign } from "react-icons/fa6";
+import { FaTelegramPlane } from "react-icons/fa";
+import { TbBrandGrindr } from "react-icons/tb";
 import React, { useState, useRef, ChangeEvent } from 'react';
 import domtoimage from 'dom-to-image';
 
@@ -96,6 +98,14 @@ export default function Home() {
 
   const handleBuy = () => {
     window.open('https://jup.ag/swap/SOL-9BKWEZqhvJh4Lh9pnnX6f1xL7SLr6diyTb77kadfbFdK', '_blank');
+  };
+
+  const handleTelegram = () => {
+    window.open('https://t.me/GRINDRSOL', '_blank');
+  };
+
+  const handleWebsite = () => {
+    window.open('https://grindronsol.com', '_blank');
   };
   
   return (
@@ -279,6 +289,12 @@ export default function Home() {
                         </button>
                         <button onClick={handleBuy} type="button" className="flex rounded-lg bg-white w-full text-center justify-center items-center px-3 py-3 text-4xl font-normal text-black shadow-sm ring-1 ring-inset ring-primary">
                           <FaDollarSign className="h-12 w-12 text-black  mr-3" aria-hidden="true" /> Buy $GRINDR
+                        </button>
+                        <button onClick={handleTelegram} type="button" className="flex rounded-lg bg-white w-full text-center justify-center items-center px-3 py-3 text-4xl font-normal text-black shadow-sm ring-1 ring-inset ring-primary">
+                          <FaTelegramPlane className="h-12 w-12 text-black  mr-3" aria-hidden="true" /> Telegram
+                        </button>
+                        <button onClick={handleWebsite} type="button" className="flex rounded-lg bg-white w-full text-center justify-center items-center px-3 py-3 text-4xl font-normal text-black shadow-sm ring-1 ring-inset ring-primary">
+                          <TbBrandGrindr className="h-12 w-12 text-black  mr-3" aria-hidden="true" /> Website
                         </button>
                       </div>
                     </div>
